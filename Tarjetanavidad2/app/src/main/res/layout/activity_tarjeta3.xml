@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tarjeta3"
+    android:background="@drawable/pngtree_snow_fall_winter_wallpaper_image_728232">
+
+    //Carta 3
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#fffffe91"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567">
+
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="444dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/_184753028_1f5313c43e_b" />
+
+        <TextView
+            android:id="@+id/texto32"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_gravity="top"
+            android:background="#8c000000"
+            android:padding="10dp"
+            android:text="@string/tarjeta32"
+            android:textColor="#ffe3e3e3"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texto31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#8c000000"
+            android:padding="10dp"
+            android:text="@string/tarjeta31"
+            android:textColor="#ffe3e3e3"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrocede"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="3mm" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

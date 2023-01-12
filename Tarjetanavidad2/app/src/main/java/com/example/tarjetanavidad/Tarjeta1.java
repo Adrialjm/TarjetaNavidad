@@ -1,0 +1,20 @@
+package com.example.tarjetanavidad;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+public class Tarjeta1 extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_tarjeta1);
+        findViewById(R.id.button2).setOnClickListener(v -> {
+            Intent intent = new Intent(v.getContext(), MainActivity.class);
+            startActivity(intent);
+        });
+    }
+
+}
